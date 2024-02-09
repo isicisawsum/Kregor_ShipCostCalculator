@@ -13,7 +13,7 @@ public class Main {
             in.nextLine(); //creating new line
             if (price >= 100.00)
             {
-                System.out.println("The price of your item was $" + price + "which is greater than $100 so your shipping is free, leading to the same total price of $" + price); //outputting that there is no shipping cost
+                System.out.println("The price of your item was $" + price + " which is greater than $100 so your shipping is free, leading to the same total price of $" + price); //outputting that there is no shipping cost
             }
         	else if (price > 0 && price < 100)
             {
